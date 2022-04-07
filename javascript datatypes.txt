@@ -28,22 +28,13 @@ monster3;
 A JavaScript string stores a series of characters like "John Doe".
 
 "This is a string";
-
 "12";
-
 12;
-
 'This is also a string';
-
 'This is a string"; // mismatched quotes - this will not execute - compilation error
-
-
 "This is Joe's favorite string";
-
 "This is Joe's \\"favorite\\" string";
-
 "This is Joe's "favorite" string"; // this line will not work
-
 "This is \\
 Joe's Favorite \\
 String EVER";
@@ -51,7 +42,6 @@ String EVER";
 // More info:
 
 // https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Values,_variables,_and_literals
-
 // https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/String
 
 **String Methods**
