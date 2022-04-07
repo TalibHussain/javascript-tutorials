@@ -56,84 +56,84 @@ String EVER";
 
 **String Methods**
 
-charAt()	Returns the character at a specified index (position)
-charCodeAt()	Returns the Unicode of the character at a specified index
-concat()	Returns two or more joined strings
-endsWith()	Returns if a string ends with a specified value
-fromCharCode()	Returns Unicode values as characters
-includes()	Returns if a string contains a specified value
-indexOf()	Returns the index (position) of the first occurrence of a value in a string
-lastIndexOf()	Returns the index (position) of the last occurrence of a value in a string
-localeCompare()	Compares two strings in the current locale
-match()	Searches a string for a value, or a regular expression, and returns the matches
-repeat()	Returns a new string with a number of copies of a string
-replace()	Searches a string for a value, or a regular expression, and returns a string where the values are replaced
-search()	Searches a string for a value, or regular expression, and returns the index (position) of the match
-slice()	Extracts a part of a string and returns a new string
-split()	Splits a string into an array of substrings
-startsWith()	Checks whether a string begins with specified characters
-substr()	Extracts a number of characters from a string, from a start index (position)
-substring()	Extracts characters from a string, between two specified indices (positions)
-toLocaleLowerCase()	Returns a string converted to lowercase letters, using the host's locale
-toLocaleUpperCase()	Returns a string converted to uppercase letters, using the host's locale
-toLowerCase()	Returns a string converted to lowercase letters
-toString()	Returns a string or a string object as a string
-toUpperCase()	Returns a string converted to uppercase letters
-trim()	Returns a string with removed whitespaces
-valueOf()	Returns the primitive value of a string or a string object
+charAt()	Returns the character at a specified index (position) \n
+charCodeAt()	Returns the Unicode of the character at a specified index  \n
+concat()	Returns two or more joined strings \n
+endsWith()	Returns if a string ends with a specified value \n
+fromCharCode()	Returns Unicode values as characters \n
+includes()	Returns if a string contains a specified value \n
+indexOf()	Returns the index (position) of the first occurrence of a value in a string \n
+lastIndexOf()	Returns the index (position) of the last occurrence of a value in a string \n
+localeCompare()	Compares two strings in the current locale \n
+match()	Searches a string for a value, or a regular expression, and returns the matches \n
+repeat()	Returns a new string with a number of copies of a string \n
+replace()	Searches a string for a value, or a regular expression, and returns a string where the values are replaced \n
+search()	Searches a string for a value, or regular expression, and returns the index (position) of the match \n
+slice()	Extracts a part of a string and returns a new string \n
+split()	Splits a string into an array of substrings \n
+startsWith()	Checks whether a string begins with specified characters \n
+substr()	Extracts a number of characters from a string, from a start index (position) \n
+substring()	Extracts characters from a string, between two specified indices (positions) \n
+toLocaleLowerCase()	Returns a string converted to lowercase letters, using the host's locale \n
+toLocaleUpperCase()	Returns a string converted to uppercase letters, using the host's locale \n
+toLowerCase()	Returns a string converted to lowercase letters \n
+toString()	Returns a string or a string object as a string \n
+toUpperCase()	Returns a string converted to uppercase letters \n
+trim()	Returns a string with removed whitespaces \n
+valueOf()	Returns the primitive value of a string or a string object \n
 
-**String Properties**
-constructor	Returns the string's constructor function
-length	Returns the length of a string
-prototype	Allows you to add properties and methods to an object
+**String Properties** \n
+constructor	Returns the string's constructor function \n
+length	Returns the length of a string \n
+prototype	Allows you to add properties and methods to an object \n
 
-
-**JavaScript Numbers**
-
-JavaScript has only one type of number.
-let x = 3.14;     // A number with decimals
-let y = 34;       // A number without decimals
+ 
+**JavaScript Numbers** \n
+ 
+JavaScript has only one type of number. \n
+let x = 3.14;     // A number with decimals \n
+let y = 34;       // A number without decimals \n
 
 **Numbers Methods**
-Syntax
-number.isFinite();
+Syntax \n
+number.isFinite(); \n
 
-isFinite()	Checks whether a value is a finite number
-isInteger()	Checks whether a value is an integer
-isNaN()	Checks whether a value is Number.NaN
-isSafeInteger()	Checks whether a value is a safe integer
-toExponential(x)	Converts a number into an exponential notation
-toFixed(x)	Formats a number with x numbers of digits after the decimal point
-toLocaleString()	Converts a number into a string, based on the locale settings
-toPrecision(x)	Formats a number to x length
-toString()	Converts a number to a string
-valueOf()	Returns the primitive value of a number
+isFinite()	Checks whether a value is a finite number \n
+isInteger()	Checks whether a value is an integer \n
+isNaN()	Checks whether a value is Number.NaN \n
+isSafeInteger()	Checks whether a value is a safe integer \n
+toExponential(x)	Converts a number into an exponential notation \n
+toFixed(x)	Formats a number with x numbers of digits after the decimal point \n
+toLocaleString()	Converts a number into a string, based on the locale settings \n
+toPrecision(x)	Formats a number to x length \n
+toString()	Converts a number to a string \n
+valueOf()	Returns the primitive value of a number \n
 
 
 **Numbers Properties**
-Syntax
-number.constructor;
+Syntax \n
+number.constructor; \n
 
-constructor	Returns the function that created JavaScript's Number prototype
-MAX_VALUE	Returns the largest number possible in JavaScript
-MIN_VALUE	Returns the smallest number possible in JavaScript
-NEGATIVE_INFINITY	Represents negative infinity (returned on overflow)
-NaN	Represents a "Not-a-Number" value
-POSITIVE_INFINITY	Represents infinity (returned on overflow)
-prototype	Allows you to add properties and methods to an object
+constructor	Returns the function that created JavaScript's Number prototype \n
+MAX_VALUE	Returns the largest number possible in JavaScript \n
+MIN_VALUE	Returns the smallest number possible in JavaScript \n
+NEGATIVE_INFINITY	Represents negative infinity (returned on overflow) \n
+NaN	Represents a "Not-a-Number" value \n
+POSITIVE_INFINITY	Represents infinity (returned on overflow) \n
+prototype	Allows you to add properties and methods to an object \n
 
-**JavaScript Booleans**
-JavaScript booleans can have one of two values: true or false.
+**JavaScript Booleans** \n
+JavaScript booleans can have one of two values: true or false. \n
 
-**JavaScript Boolean Methods**
+**JavaScript Boolean Methods** \n
 
-toString()	Converts a boolean value to a string, and returns the result
-valueOf()	Returns the primitive value of a boolean
+toString()	Converts a boolean value to a string, and returns the result \n
+valueOf()	Returns the primitive value of a boolean \n
 
-**JavaScript Boolean Properties**
+**JavaScript Boolean Properties** \n
 
-constructor	Returns the function that created JavaScript's Boolean prototype
-prototype	Allows you to add properties and methods to the Boolean prototype
+constructor	Returns the function that created JavaScript's Boolean prototype \n
+prototype	Allows you to add properties and methods to the Boolean prototype \n
 
 
 
