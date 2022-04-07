@@ -51,9 +51,6 @@ monster3;
 
 'This is a string"; // mismatched quotes - this will not execute - compilation error
 
-\'<a href="">\';
-
-\'<a href="http://www.example.com">\';
 
 "This is Joe's favorite string";
 
@@ -61,12 +58,14 @@ monster3;
 
 "This is Joe's "favorite" string"; // this line will not work
 
-"This is \
-Joe's Favorite \
+"This is \\
+Joe's Favorite \\
 String EVER";
 
 // More info:
+
 // https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Values,_variables,_and_literals
+
 // https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/String
 
 
